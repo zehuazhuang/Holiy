@@ -85,6 +85,7 @@ class VirelqomastEnthrix with ChangeNotifier {
         autoConsume: true,
       );
     } catch (err) {
+       PiquCABriolee.floorClose();
       noctraFeedbackEmitter?.call(
         "ca3680885ff95d99da8e47f89e37bbad26d3cba36fe2611a62415f366d2f936b1505234640e1f56c7e13fd28c950efa6".glarivex(),
       );
