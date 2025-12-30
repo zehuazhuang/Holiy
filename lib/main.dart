@@ -1,6 +1,11 @@
 import 'package:flutter/material.dart';
+import 'package:holiy/entrechatp/harmonyl/spotligstagehtinit.dart';
+import 'package:holiy/entrechatp/rehearsalh/hiepaulementpnav.dart';
+import 'package:holiy/ledemplieihou/krumballroostorge.dart';
 
-void main() {
+void main() async {
+  WidgetsFlutterBinding.ensureInitialized();
+  await KrumballrooStorge().roadistrictm();
   runApp(const MainApp());
 }
 
@@ -9,12 +14,10 @@ class MainApp extends StatelessWidget {
 
   @override
   Widget build(BuildContext context) {
-    return const MaterialApp(
-      home: Scaffold(
-        body: Center(
-          child: Text('Hello World!'),
-        ),
-      ),
+    return MaterialApp(
+      home: KrumballrooStorge().cadenceUser == null
+          ? SpotligSTAgehtinit()
+          : HiepauLEMntpNav(),
     );
   }
 }
