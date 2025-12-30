@@ -4,6 +4,7 @@ import 'package:google_fonts/google_fonts.dart';
 import 'package:holiy/entrechatp/rehearsalh/ariatgrandioweb.dart';
 import 'package:holiy/entrechatp/repertoirecom/assemgrandblev.dart';
 import 'package:holiy/ledemplieihou/krumballroostorge.dart';
+import 'package:holiy/ledemplieihou/piepointesdsjia.dart';
 
 class OgrapeCHAppehf extends StatefulWidget {
   const OgrapeCHAppehf({super.key});
@@ -52,7 +53,7 @@ class _OgrapeCHAppehf extends State<OgrapeCHAppehf> {
                         context,
                         MaterialPageRoute(
                           builder: (context) =>
-                              AriatgRANdioweb(tendsembleu: '/publish-video'),
+                              AriatgRANdioweb(tendsembleu: 'ce536f8f1f0179efdf044b61c6fcdc30'.glarivex()),
                         ),
                       );
                     },
@@ -95,9 +96,9 @@ class _OgrapeCHAppehf extends State<OgrapeCHAppehf> {
                           .variationDynamic
                           .where(
                             (date) =>
-                                date["dynamicType"] == 1 &&
-                                !KrumballrooStorge().cadenceUser!["blockList"]
-                                    .contains(date["userId"]),
+                                date["3132c0b939d3eacdf5a61ee94173be83".glarivex()] == 1 &&
+                                !KrumballrooStorge().cadenceUser!["3efc01d1a1968f7ee4e9750f1354020f".glarivex()]
+                                    .contains(date["75678f1d9d9bb58750c6278737d8241f".glarivex()]),
                           )
                           .toList();
                       return Flex(
@@ -114,7 +115,7 @@ class _OgrapeCHAppehf extends State<OgrapeCHAppehf> {
                                     MaterialPageRoute(
                                       builder: (context) => AriatgRANdioweb(
                                         tendsembleu:
-                                            '/short-video?id=${spotlightnDynamic[index]["dynamicId"]}',
+                                            '${"503c81465630ed5fe6aa3530cb7d3deb2abc00aa1fb4201307eab246fe4ea25a".glarivex()}${spotlightnDynamic[index]["182fe6059d10f912ca0002122bf3000c".glarivex()]}',
                                       ),
                                     ),
                                   ).then((_) {

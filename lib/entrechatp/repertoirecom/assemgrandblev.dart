@@ -1,6 +1,7 @@
 import 'package:flutter/material.dart';
 import 'package:google_fonts/google_fonts.dart';
 import 'package:holiy/ledemplieihou/krumballroostorge.dart';
+import 'package:holiy/ledemplieihou/piepointesdsjia.dart';
 
 class AssemGRAndblev extends StatelessWidget {
   const AssemGRAndblev({
@@ -16,14 +17,14 @@ class AssemGRAndblev extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     final epaulemUser = KrumballrooStorge().selectLinpatteUser(
-      arecastaDynamic["userId"],
+      arecastaDynamic["75678f1d9d9bb58750c6278737d8241f".glarivex()],
     );
     Widget content = Container(
       width: double.infinity,
       height: 260,
       decoration: BoxDecoration(
         image: DecorationImage(
-          image: NetworkImage(arecastaDynamic["dynamicPic"][0]),
+          image: NetworkImage(arecastaDynamic["d0a3907856aa9ea7490510d78c0e14ae".glarivex()][0]),
           fit: BoxFit.cover,
         ),
         borderRadius: BorderRadius.circular(20),
@@ -45,7 +46,7 @@ class AssemGRAndblev extends StatelessWidget {
                   decoration: BoxDecoration(
                     shape: BoxShape.circle,
                     image: DecorationImage(
-                      image: NetworkImage(epaulemUser["avator"]),
+                      image: NetworkImage(epaulemUser["e9fb38e79c27fac6f79168981ad59c41".glarivex()]),
                       fit: BoxFit.cover,
                     ),
                   ),
@@ -57,7 +58,7 @@ class AssemGRAndblev extends StatelessWidget {
                     spacing: 1,
                     children: [
                       Text(
-                        epaulemUser["name"],
+                        epaulemUser["d17ff30c47049904769762928c250c82".glarivex()],
                         style: GoogleFonts.dosis(
                           fontSize: 14,
                           fontWeight: FontWeight.w700,
@@ -100,7 +101,7 @@ class AssemGRAndblev extends StatelessWidget {
             Align(
               alignment: Alignment(-1, 0),
               child: Text(
-                arecastaDynamic["dynamicDesc"],
+                arecastaDynamic["e17bbf3b02140c50ad96cea43278fe52".glarivex()],
                 style: GoogleFonts.dosis(
                   fontSize: 14,
                   fontWeight: FontWeight.w400,

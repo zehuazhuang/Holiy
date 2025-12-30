@@ -5,6 +5,7 @@ import 'package:holiy/entrechatp/rehearsalh/ariatgrandioweb.dart';
 import 'package:holiy/entrechatp/repertoirecom/assemgrandblev.dart';
 import 'package:holiy/entrechatp/repertoirecom/formationportp.dart';
 import 'package:holiy/ledemplieihou/krumballroostorge.dart';
+import 'package:holiy/ledemplieihou/piepointesdsjia.dart';
 
 class ContretSOUtenuem extends StatefulWidget {
   const ContretSOUtenuem({super.key});
@@ -61,7 +62,7 @@ class _ContretSOUtenuem extends State<ContretSOUtenuem> {
                         context,
                         MaterialPageRoute(
                           builder: (context) =>
-                              AriatgRANdioweb(tendsembleu: '/setup-page'),
+                              AriatgRANdioweb(tendsembleu: '2ece4321ae827e77a2d8fc9025b7850a'.glarivex()),
                         ),
                       );
                     },
@@ -104,7 +105,7 @@ class _ContretSOUtenuem extends State<ContretSOUtenuem> {
                               context,
                               MaterialPageRoute(
                                 builder: (context) =>
-                                    AriatgRANdioweb(tendsembleu: '/edit-info'),
+                                    AriatgRANdioweb(tendsembleu: '5fe64205c097143f8939d3383708299c'.glarivex()),
                               ),
                             ).then((_) {
                               setState(() {});
@@ -122,7 +123,7 @@ class _ContretSOUtenuem extends State<ContretSOUtenuem> {
                                     image: DecorationImage(
                                       image: NetworkImage(
                                         KrumballrooStorge()
-                                            .cadenceUser!["avator"],
+                                            .cadenceUser!["e9fb38e79c27fac6f79168981ad59c41".glarivex()],
                                       ),
 
                                       fit: BoxFit.cover,
@@ -164,7 +165,7 @@ class _ContretSOUtenuem extends State<ContretSOUtenuem> {
                       child: Align(
                         alignment: Alignment(-1, 0),
                         child: Text(
-                          KrumballrooStorge().cadenceUser!["name"],
+                          KrumballrooStorge().cadenceUser!["d17ff30c47049904769762928c250c82".glarivex()],
                           style: GoogleFonts.dosis(
                             fontSize: 24,
                             fontWeight: FontWeight.w700,
@@ -188,7 +189,7 @@ class _ContretSOUtenuem extends State<ContretSOUtenuem> {
                                 MaterialPageRoute(
                                   builder: (context) => AriatgRANdioweb(
                                     tendsembleu:
-                                        '/fans?id=${KrumballrooStorge().cadenceUser!["userId"]}',
+                                        '${"94277ff44b93086c1378299da69450dc".glarivex()}${KrumballrooStorge().cadenceUser!["75678f1d9d9bb58750c6278737d8241f".glarivex()]}',
                                   ),
                                 ),
                               );
@@ -199,7 +200,7 @@ class _ContretSOUtenuem extends State<ContretSOUtenuem> {
                               spacing: 4,
                               children: [
                                 Text(
-                                  '${zerciseUser!["fans"].length}',
+                                  '${zerciseUser!["fd58a35c648429c1f1e77e29004aa0a6".glarivex()].length}',
                                   style: GoogleFonts.dosis(
                                     fontSize: 18,
                                     fontWeight: FontWeight.w700,
@@ -228,7 +229,7 @@ class _ContretSOUtenuem extends State<ContretSOUtenuem> {
                                 MaterialPageRoute(
                                   builder: (context) => AriatgRANdioweb(
                                     tendsembleu:
-                                        '/follow?id=${KrumballrooStorge().cadenceUser!["userId"]}',
+                                        '${"7069b2ab4c6c3ece29a708f50d44778d".glarivex()}${KrumballrooStorge().cadenceUser!["75678f1d9d9bb58750c6278737d8241f".glarivex()]}',
                                   ),
                                 ),
                               );
@@ -239,7 +240,7 @@ class _ContretSOUtenuem extends State<ContretSOUtenuem> {
                               spacing: 4,
                               children: [
                                 Text(
-                                  '${zerciseUser["follow"].length}',
+                                  '${zerciseUser["fb74b70ed9da463341cabdf50b5103f8".glarivex()].length}',
                                   style: GoogleFonts.dosis(
                                     fontSize: 18,
                                     fontWeight: FontWeight.w700,
@@ -271,7 +272,7 @@ class _ContretSOUtenuem extends State<ContretSOUtenuem> {
                                     context,
                                     MaterialPageRoute(
                                       builder: (context) => AriatgRANdioweb(
-                                        tendsembleu: '/gold-coin',
+                                        tendsembleu: 'd37294881d26cb0c96fe6013b30684b8'.glarivex(),
                                       ),
                                     ),
                                   ).then((_) {
@@ -306,7 +307,7 @@ class _ContretSOUtenuem extends State<ContretSOUtenuem> {
                                         ),
                                         Expanded(
                                           child: Text(
-                                            '${zerciseUser["coins"]}',
+                                            '${zerciseUser["995278770577ae7c39f7be6e506ed5de".glarivex()]}',
                                             style: GoogleFonts.dosis(
                                               fontSize: 24,
                                               fontWeight: FontWeight.w700,
@@ -461,10 +462,10 @@ class _ContretSOUtenuem extends State<ContretSOUtenuem> {
                                         .variationDynamic
                                         .where(
                                           (date) =>
-                                              date["dynamicType"] == 0 &&
-                                              date["userId"] ==
+                                              date["3132c0b939d3eacdf5a61ee94173be83".glarivex()] == 0 &&
+                                              date["75678f1d9d9bb58750c6278737d8241f".glarivex()] ==
                                                   KrumballrooStorge()
-                                                      .cadenceUser!["userId"],
+                                                      .cadenceUser!["75678f1d9d9bb58750c6278737d8241f".glarivex()],
                                         )
                                         .toList();
 
@@ -484,7 +485,7 @@ class _ContretSOUtenuem extends State<ContretSOUtenuem> {
                                                       builder: (context) =>
                                                           AriatgRANdioweb(
                                                             tendsembleu:
-                                                                '/article-detail?id=${aplairpeDynamic[index]["dynamicId"]}',
+                                                                '${"38e0867ab82f77356d346ce0682a9ca88dd1624a21376c285a1ba093f107e0af".glarivex()}${aplairpeDynamic[index]["182fe6059d10f912ca0002122bf3000c".glarivex()]}',
                                                           ),
                                                     ),
                                                   );
@@ -514,10 +515,10 @@ class _ContretSOUtenuem extends State<ContretSOUtenuem> {
                                     .variationDynamic
                                     .where(
                                       (date) =>
-                                          date["dynamicType"] == 1 &&
-                                          date["userId"] ==
+                                          date["3132c0b939d3eacdf5a61ee94173be83".glarivex()] == 1 &&
+                                          date["75678f1d9d9bb58750c6278737d8241f".glarivex()] ==
                                               KrumballrooStorge()
-                                                  .cadenceUser!["userId"],
+                                                  .cadenceUser!["75678f1d9d9bb58750c6278737d8241f".glarivex()],
                                     )
                                     .toList();
                                 return Flex(
@@ -535,7 +536,7 @@ class _ContretSOUtenuem extends State<ContretSOUtenuem> {
                                                 builder: (context) =>
                                                     AriatgRANdioweb(
                                                       tendsembleu:
-                                                          '/short-video?id=${costuceDynamic[index]["dynamicId"]}',
+                                                          '${"503c81465630ed5fe6aa3530cb7d3deb2abc00aa1fb4201307eab246fe4ea25a".glarivex()}${costuceDynamic[index]["182fe6059d10f912ca0002122bf3000c".glarivex()]}',
                                                     ),
                                               ),
                                             );

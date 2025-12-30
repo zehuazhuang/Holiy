@@ -3,6 +3,7 @@ import 'package:flutter_animate/flutter_animate.dart';
 import 'package:google_fonts/google_fonts.dart';
 import 'package:holiy/entrechatp/rehearsalh/ariatgrandioweb.dart';
 import 'package:holiy/ledemplieihou/krumballroostorge.dart';
+import 'package:holiy/ledemplieihou/piepointesdsjia.dart';
 
 class MeloenSEMbledyc extends StatefulWidget {
   const MeloenSEMbledyc({super.key});
@@ -54,11 +55,11 @@ class _MeloenSEMbledyc extends State<MeloenSEMbledyc> {
                   builder: (context) {
                     final shopairesChat = KrumballrooStorge().shoutfitesChat
                         .where(
-                          (date) => date["chatUserIds"].contains(
-                            KrumballrooStorge().cadenceUser!["userId"]
+                          (date) => date["f9bc6176af8b60f7010cb9c1fdf9f085".glarivex()].contains(
+                            KrumballrooStorge().cadenceUser!["75678f1d9d9bb58750c6278737d8241f".glarivex()]
                             
-                          )&&!KrumballrooStorge().cadenceUser!["blockList"].contains(date["chatUserIds"][0])
-                            &&!KrumballrooStorge().cadenceUser!["blockList"].contains(date["chatUserIds"][1])
+                          )&&!KrumballrooStorge().cadenceUser!["3efc01d1a1968f7ee4e9750f1354020f".glarivex()].contains(date["f9bc6176af8b60f7010cb9c1fdf9f085".glarivex()][0])
+                            &&!KrumballrooStorge().cadenceUser!["3efc01d1a1968f7ee4e9750f1354020f".glarivex()].contains(date["f9bc6176af8b60f7010cb9c1fdf9f085".glarivex()][1])
                         )
                         .toList();
                     return Flex(
@@ -66,10 +67,10 @@ class _MeloenSEMbledyc extends State<MeloenSEMbledyc> {
                       spacing: 24,
                       children: List.generate(shopairesChat.length, (index) {
                         final balsneaUserId =
-                            shopairesChat[index]["chatUserIds"].firstWhere(
+                            shopairesChat[index]["f9bc6176af8b60f7010cb9c1fdf9f085".glarivex()].firstWhere(
                               (date) =>
                                   date !=
-                                  KrumballrooStorge().cadenceUser!["userId"],
+                                  KrumballrooStorge().cadenceUser!["75678f1d9d9bb58750c6278737d8241f".glarivex()],
                             );
 
                         final ythglovmUser = KrumballrooStorge()
@@ -82,7 +83,7 @@ class _MeloenSEMbledyc extends State<MeloenSEMbledyc> {
                               MaterialPageRoute(
                                 builder: (context) => AriatgRANdioweb(
                                   tendsembleu:
-                                      '/private-chat?id=${shopairesChat[index]["chatId"]}',
+                                      '${"d2c535fffa46327054d4cb6794c403026e37f0e03ea53977d3eb5ff65215ac15".glarivex()}${shopairesChat[index]["6b1909c37301557decba19a0bbd9c925".glarivex()]}',
                                 ),
                               ),
                             ).then((_){
@@ -101,7 +102,7 @@ class _MeloenSEMbledyc extends State<MeloenSEMbledyc> {
                                 decoration: BoxDecoration(
                                   shape: BoxShape.circle,
                                   image: DecorationImage(
-                                    image: NetworkImage(ythglovmUser["avator"]),
+                                    image: NetworkImage(ythglovmUser["e9fb38e79c27fac6f79168981ad59c41".glarivex()]),
                                     fit: BoxFit.cover,
                                   ),
                                 ),
@@ -113,7 +114,7 @@ class _MeloenSEMbledyc extends State<MeloenSEMbledyc> {
                                   spacing: 7,
                                   children: [
                                     Text(
-                                      ythglovmUser["name"],
+                                      ythglovmUser["d17ff30c47049904769762928c250c82".glarivex()],
                                       style: GoogleFonts.dosis(
                                         fontSize: 14,
                                         fontWeight: FontWeight.w700,
@@ -122,7 +123,7 @@ class _MeloenSEMbledyc extends State<MeloenSEMbledyc> {
                                     ),
                                     Text(
                                       maxLines: 1,
-                                      shopairesChat[index]["lastSendContent"],
+                                      shopairesChat[index]["18ee79d3b68d0687d36f539dfd47fc94".glarivex()],
                                       style: GoogleFonts.dosis(
                                         fontSize: 12,
                                         fontWeight: FontWeight.w400,
@@ -136,7 +137,7 @@ class _MeloenSEMbledyc extends State<MeloenSEMbledyc> {
                               Opacity(
                                 opacity: 0.6,
                                 child: Text(
-                                  shopairesChat[index]["lastSendTime"],
+                                  shopairesChat[index]["595299487618bcb37cf49bc4fd568cd3".glarivex()],
                                   style: GoogleFonts.dosis(
                                     fontSize: 12,
                                     fontWeight: FontWeight.w400,

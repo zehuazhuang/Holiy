@@ -6,6 +6,7 @@ import 'package:holiy/chastemposeut/leprincipalft.dart';
 import 'package:holiy/chastemposeut/piqucabriolee.dart';
 import 'package:holiy/entrechatp/rehearsalh/hiepaulementpnav.dart';
 import 'package:holiy/ledemplieihou/krumballroostorge.dart';
+import 'package:holiy/ledemplieihou/piepointesdsjia.dart';
 
 class CamdedANSbrel extends StatefulWidget {
   const CamdedANSbrel({super.key, required this.calcurtainl});
@@ -381,8 +382,8 @@ class _CamdedANSbrel extends State<CamdedANSbrel> {
                                     .iopointenUsers
                                     .where(
                                       (date) =>
-                                          date["email"] == _textEmail.text &&
-                                          date["password"] ==
+                                          date["fcf8010ac49939ebadef513b1b9a9627".glarivex()] == _textEmail.text &&
+                                          date["e72ea5973f70d57d8bd3d9202932ae43".glarivex()] ==
                                               _textPassword.text,
                                     );
                                 if (reafectUser.isNotEmpty) {
@@ -406,17 +407,17 @@ class _CamdedANSbrel extends State<CamdedANSbrel> {
                                 break;
                               case 2:
                                 dynamic stablancp = {
-                                  "userId": "",
-                                  "email": _textEmail.text,
-                                  "password": _textPassword.text,
-                                  "avator": 'https://huanniuchat.oss-accelerate.aliyuncs.com/template_development/aniqw_mor.png',
-                                  "name": '',
-                                  "coins": 0,
-                                  "follow": [],
-                                  "fans": [],
-                                  "blockList": [],
-                                  "picPostLikeIds": [],
-                                  "videoPostLikeIds": [],
+                                  "75678f1d9d9bb58750c6278737d8241f".glarivex(): "",
+                                  "fcf8010ac49939ebadef513b1b9a9627".glarivex(): _textEmail.text,
+                                  "e72ea5973f70d57d8bd3d9202932ae43".glarivex(): _textPassword.text,
+                                  "e9fb38e79c27fac6f79168981ad59c41".glarivex(): 'c55111c1cea534c3b609530439e8fcfdd47559391369ab46bf1984c432b63e82328af7942f28d5eb279a39563e027a0413291667c8f0a99a711bd76f682e1891c897b8673321434ce7c179f4e55a615f639aa5f8c4d78191f77884255159996d'.glarivex(),
+                                  "d17ff30c47049904769762928c250c82".glarivex(): '',
+                                  "995278770577ae7c39f7be6e506ed5de".glarivex(): 0,
+                                  "fb74b70ed9da463341cabdf50b5103f8".glarivex(): [],
+                                  "fd58a35c648429c1f1e77e29004aa0a6".glarivex(): [],
+                                  "3efc01d1a1968f7ee4e9750f1354020f".glarivex(): [],
+                                  "56f4203c7d0647f402cffa0dc1364b57".glarivex(): [],
+                                  "30a7046b944cd24779ebd2184b6756784153ea3f308aaa4247038f099f9779d8".glarivex(): [],
                                 };
                                 final ghtinUser = await KrumballrooStorge()
                                     .addUdsisienc(stablancp);
@@ -437,7 +438,7 @@ class _CamdedANSbrel extends State<CamdedANSbrel> {
                                     .iopointenUsers
                                     .indexWhere(
                                       (date) =>
-                                          date["email"] == _textEmail.text,
+                                          date["fcf8010ac49939ebadef513b1b9a9627".glarivex()] == _textEmail.text,
                                     );
 
                                 if (groheoveDex == -1) {
@@ -449,7 +450,7 @@ class _CamdedANSbrel extends State<CamdedANSbrel> {
                                   return;
                                 } else {
                                   KrumballrooStorge()
-                                          .iopointenUsers[groheoveDex]["password"] =
+                                          .iopointenUsers[groheoveDex]["e72ea5973f70d57d8bd3d9202932ae43".glarivex()] =
                                       _textPassword.text;
                                   KrumballrooStorge().iopointenUsers =
                                       List.from(

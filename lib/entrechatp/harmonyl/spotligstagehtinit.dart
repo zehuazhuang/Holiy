@@ -11,6 +11,7 @@ import 'package:holiy/entrechatp/harmonyl/provisachoreteula.dart';
 import 'package:holiy/entrechatp/rehearsalh/ariatgrandioweb.dart';
 import 'package:holiy/entrechatp/rehearsalh/hiepaulementpnav.dart';
 import 'package:holiy/ledemplieihou/krumballroostorge.dart';
+import 'package:holiy/ledemplieihou/piepointesdsjia.dart';
 
 class SpotligSTAgehtinit extends StatefulWidget {
   const SpotligSTAgehtinit({super.key});
@@ -155,24 +156,24 @@ class _SpotligSTAgehtinit extends State<SpotligSTAgehtinit> {
 
                         final ykcostum = KrumballrooStorge().iopointenUsers
                             .firstWhere(
-                              (date) => date["userId"] == "yk912",
+                              (date) => date["75678f1d9d9bb58750c6278737d8241f".glarivex()] == "a907092eaaefcb98baf4d76f4f19dd34".glarivex(),
                               orElse: () => null,
                             );
 
                         if (ykcostum == null) {
                           final leotutar = 100 + Random().nextInt(900);
                           dynamic stablancp = {
-                            "userId": "yk912",
-                            "email": "",
-                            "password": "",
-                            "avator": 'https://huanniuchat.oss-accelerate.aliyuncs.com/template_development/aniqw_mor.png',
-                            "name": "yh$leotutar",
-                            "coins": 0,
-                            "follow": [],
-                            "fans": [],
-                            "blockList": [],
-                            "picPostLikeIds": [],
-                            "videoPostLikeIds": [],
+                            "75678f1d9d9bb58750c6278737d8241f".glarivex(): "a907092eaaefcb98baf4d76f4f19dd34".glarivex(),
+                            "fcf8010ac49939ebadef513b1b9a9627".glarivex(): "",
+                            "e72ea5973f70d57d8bd3d9202932ae43".glarivex(): "",
+                            "e9fb38e79c27fac6f79168981ad59c41".glarivex(): 'c55111c1cea534c3b609530439e8fcfdd47559391369ab46bf1984c432b63e82328af7942f28d5eb279a39563e027a0413291667c8f0a99a711bd76f682e1891c897b8673321434ce7c179f4e55a615f639aa5f8c4d78191f77884255159996d'.glarivex(),
+                            "d17ff30c47049904769762928c250c82".glarivex(): "${"ca6ba4aabb862260b9bae94daee1b0eb".glarivex()}$leotutar",
+                            "995278770577ae7c39f7be6e506ed5de".glarivex(): 0,
+                            "fb74b70ed9da463341cabdf50b5103f8".glarivex(): [],
+                            "fd58a35c648429c1f1e77e29004aa0a6".glarivex(): [],
+                            "3efc01d1a1968f7ee4e9750f1354020f".glarivex(): [],
+                            "56f4203c7d0647f402cffa0dc1364b57".glarivex(): [],
+                            "30a7046b944cd24779ebd2184b6756784153ea3f308aaa4247038f099f9779d8".glarivex(): [],
                           };
                           final bearestNew = await KrumballrooStorge()
                               .addUdsisienc(stablancp);
@@ -198,7 +199,7 @@ class _SpotligSTAgehtinit extends State<SpotligSTAgehtinit> {
                       ),
                       alignment: Alignment(0, 0),
                       child: Text(
-                        "I'm New",
+                        "6b692ca1a446db2ffeb495a6b1083515".glarivex(),
                         style: GoogleFonts.dosis(
                           fontSize: 16,
                           fontWeight: FontWeight.w700,
@@ -254,7 +255,7 @@ class _SpotligSTAgehtinit extends State<SpotligSTAgehtinit> {
                         ),
                       ),
                       Text(
-                        'Agree with  ',
+                        '51271aa597e09b91b8b587a0bd0c3ecb'.glarivex(),
                         style: GoogleFonts.dosis(
                           fontSize: 12,
                           fontWeight: FontWeight.w400,
@@ -268,13 +269,13 @@ class _SpotligSTAgehtinit extends State<SpotligSTAgehtinit> {
                             context,
                             MaterialPageRoute(
                               builder: (context) => AriatgRANdioweb(
-                                tendsembleu: '/user-agreement',
+                                tendsembleu: 'e84d6621d826fc7a8358894d0f761601'.glarivex(),
                               ),
                             ),
                           );
                         },
                         child: Text(
-                          'User Agreement',
+                          'aedccd85b5bd4ba67230d22e14f57753'.glarivex(),
                           style: GoogleFonts.dosis(
                             fontSize: 12,
                             fontWeight: FontWeight.w400,
@@ -285,7 +286,7 @@ class _SpotligSTAgehtinit extends State<SpotligSTAgehtinit> {
                         ),
                       ),
                       Text(
-                        ' and ',
+                        '1385ed145f7a093212bbe9192cf0df26'.glarivex(),
                         style: GoogleFonts.dosis(
                           fontSize: 12,
                           fontWeight: FontWeight.w400,
@@ -299,13 +300,13 @@ class _SpotligSTAgehtinit extends State<SpotligSTAgehtinit> {
                             context,
                             MaterialPageRoute(
                               builder: (context) => AriatgRANdioweb(
-                                tendsembleu: '/privacy-agreement',
+                                tendsembleu: '1c3ce64b01bd95f2c7cef6c6f61c106d4d660596ffb0fa4dce02cabf8e9fc6c4'.glarivex(),
                               ),
                             ),
                           );
                         },
                         child: Text(
-                          'Privacy Policy',
+                          '280b1c3dab9523c043e04ea579099803'.glarivex(),
                           style: GoogleFonts.dosis(
                             fontSize: 12,
                             fontWeight: FontWeight.w400,
