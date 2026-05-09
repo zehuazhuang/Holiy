@@ -102,7 +102,7 @@ class _MusaccENTicalityh extends State<MusaccENTicalityh> {
                         });
                       },
                       child: SizedBox(
-                        width: 60,
+                        width: 80,
                         height: 35,
                         child: Flex(
                           spacing: 2,
@@ -149,7 +149,7 @@ class _MusaccENTicalityh extends State<MusaccENTicalityh> {
                         });
                       },
                       child: SizedBox(
-                        width: 70,
+                        width: 90,
                         height: 30,
                         child: Flex(
                           direction: Axis.vertical,

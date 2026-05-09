@@ -1,7 +1,7 @@
 name: holiy
 description: "A new Flutter project."
-publish_to: 'none'
-version: 1.0.0+1
+publish_to: "none"
+version: 1.1.0+1
 
 environment:
   sdk: ^3.8.1
@@ -20,13 +20,22 @@ dependencies:
   flutter_launcher_icons: ^0.14.4
   flutter_native_splash: ^2.4.7
   flutter_animate: 4.5.2
+  flutter_keychain: ^2.5.0
+  system_keyboard_languages: ^0.0.2
+  flutter_native_timezone: ^2.0.0
+  device_info_plus: ^12.2.0
+  vpn_detector: 1.2.0
+  screen_protector: ^1.4.2+1
+  facebook_app_events: ^0.20.1
+  devicelocale: ^0.8.2
+
+  http: 1.5.0
+  flutter_local_notifications: ^19.5.0
 
 dev_dependencies:
   flutter_test:
     sdk: flutter
   flutter_lints: ^5.0.0
-  
-
 
 flutter_launcher_icons:
   android: truedevicelocale
@@ -36,12 +45,11 @@ flutter_launcher_icons:
     generate: true
   image_path: "assets/images/czxgreIcon.png"
 
-flutter_native_splash: 
+flutter_native_splash:
   background_image: "assets/images/zxhuciqw_start.png"
 
 flutter:
   uses-material-design: true
-
 
   assets:
     - assets/images/

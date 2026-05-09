@@ -354,7 +354,7 @@ class _ContretSOUtenuem extends State<ContretSOUtenuem> {
                               });
                             },
                             child: SizedBox(
-                              width: 50,
+                              width: 70,
                               height: 40,
                               child: Flex(
                                 spacing: 2,
@@ -403,7 +403,7 @@ class _ContretSOUtenuem extends State<ContretSOUtenuem> {
                               });
                             },
                             child: SizedBox(
-                              width: 60,
+                              width: 70,
                               height: 40,
                               child: Flex(
                                 direction: Axis.vertical,
