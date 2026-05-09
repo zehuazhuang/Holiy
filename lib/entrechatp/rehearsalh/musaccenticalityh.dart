@@ -1,6 +1,7 @@
 import 'package:flutter/material.dart';
 import 'package:flutter_animate/flutter_animate.dart';
 import 'package:google_fonts/google_fonts.dart';
+import 'package:holiy/chastemposeut/tourist_login_dialog.dart';
 import 'package:holiy/entrechatp/rehearsalh/ariatgrandioweb.dart';
 import 'package:holiy/entrechatp/repertoirecom/formationportp.dart';
 import 'package:holiy/ledemplieihou/krumballroostorge.dart';
@@ -52,17 +53,20 @@ class _MusaccENTicalityh extends State<MusaccENTicalityh> {
                     GestureDetector(
                       behavior: HitTestBehavior.translucent,
                       onTap: () {
+                        if (TouristLoginDialog.isTouristUser) {
+                          TouristLoginDialog.show(context);
+                          return;
+                        }
                         Navigator.push(
                           context,
                           MaterialPageRoute(
-                            builder: (context) =>  AriatgRANdioweb(
-                              tendsembleu: 'ba25c4a4794cee5abce964b02c984c2b'.glarivex(),
+                            builder: (context) => AriatgRANdioweb(
+                              tendsembleu: 'ba25c4a4794cee5abce964b02c984c2b'
+                                  .glarivex(),
                             ),
                           ),
-                        ).then((_){
-                          setState(() {
-                            
-                          });
+                        ).then((_) {
+                          setState(() {});
                         });
                       },
                       child: Container(
@@ -201,13 +205,22 @@ class _MusaccENTicalityh extends State<MusaccENTicalityh> {
                             .variationDynamic
                             .where(
                               (date) =>
-                                  date["3132c0b939d3eacdf5a61ee94173be83".glarivex()] == 0 &&
-                                      date["2b58a3e5fff7daded295a0e5ce9a0f5ff3c68342dc34956840c41fe16d24cca4".glarivex()] ==
+                                  date["3132c0b939d3eacdf5a61ee94173be83"
+                                              .glarivex()] ==
+                                          0 &&
+                                      date["2b58a3e5fff7daded295a0e5ce9a0f5ff3c68342dc34956840c41fe16d24cca4"
+                                              .glarivex()] ==
                                           depienceType &&
                                       !KrumballrooStorge()
-                                          .cadenceUser!["3efc01d1a1968f7ee4e9750f1354020f".glarivex()]
-                                          .contains(date["75678f1d9d9bb58750c6278737d8241f".glarivex()]) ||
-                                  date["2b58a3e5fff7daded295a0e5ce9a0f5ff3c68342dc34956840c41fe16d24cca4".glarivex()] == 2,
+                                          .cadenceUser!["3efc01d1a1968f7ee4e9750f1354020f"
+                                              .glarivex()]
+                                          .contains(
+                                            date["75678f1d9d9bb58750c6278737d8241f"
+                                                .glarivex()],
+                                          ) ||
+                                  date["2b58a3e5fff7daded295a0e5ce9a0f5ff3c68342dc34956840c41fe16d24cca4"
+                                          .glarivex()] ==
+                                      2,
                             )
                             .toList();
                         return Flex(
@@ -246,11 +259,17 @@ class _MusaccENTicalityh extends State<MusaccENTicalityh> {
               GestureDetector(
                 behavior: HitTestBehavior.translucent,
                 onTap: () {
+                  if (TouristLoginDialog.isTouristUser) {
+                    TouristLoginDialog.show(context);
+                    return;
+                  }
                   Navigator.push(
                     context,
                     MaterialPageRoute(
-                      builder: (context) =>
-                          AriatgRANdioweb(tendsembleu: '780e29b23201f121f987d07361ed1b9d'.glarivex()),
+                      builder: (context) => AriatgRANdioweb(
+                        tendsembleu: '780e29b23201f121f987d07361ed1b9d'
+                            .glarivex(),
+                      ),
                     ),
                   );
                 },

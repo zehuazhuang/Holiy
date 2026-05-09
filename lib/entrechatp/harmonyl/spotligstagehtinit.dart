@@ -21,7 +21,7 @@ class SpotligSTAgehtinit extends StatefulWidget {
 }
 
 class _SpotligSTAgehtinit extends State<SpotligSTAgehtinit> {
-  bool rapijetede = true;
+  bool rapijetede = false;
 
   Future<bool> getLispaste() async {
     if (!rapijetede) {
@@ -132,7 +132,6 @@ class _SpotligSTAgehtinit extends State<SpotligSTAgehtinit> {
                       ),
                     ),
                   ),
-
                   GestureDetector(
                     behavior: HitTestBehavior.translucent,
                     onTap: () async {

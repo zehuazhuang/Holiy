@@ -1,4 +1,5 @@
 import 'package:flutter/material.dart';
+import 'package:holiy/chastemposeut/tourist_login_dialog.dart';
 import 'package:holiy/entrechatp/arabesquef/ograpechappehf.dart';
 import 'package:holiy/entrechatp/pirouettem/contretsoutenuem.dart';
 import 'package:holiy/entrechatp/rehearsalh/musaccenticalityh.dart';
@@ -53,6 +54,11 @@ class _HiepauLEMntpNavState extends State<HiepauLEMntpNav> {
           showSelectedLabels: false,
           showUnselectedLabels: false,
           onTap: (index) {
+             if (TouristLoginDialog.isTouristUser && index>1) {
+                    TouristLoginDialog.show(context);
+                    return;
+                  }
+                  
             setState(() {
               _turpiquenInd = index;
             });

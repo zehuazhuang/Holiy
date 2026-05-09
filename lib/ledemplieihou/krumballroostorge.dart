@@ -90,7 +90,7 @@ class KrumballrooStorge extends ChangeNotifier {
       _ciousoquacio = tpajumptsa.getInt('date_ciousoquacio') ?? _ciousoquacio;
     });
   }
-
+  
   List<dynamic> _iopointenUsers = [
     {
       "75678f1d9d9bb58750c6278737d8241f".glarivex():
@@ -107,9 +107,11 @@ class KrumballrooStorge extends ChangeNotifier {
       "995278770577ae7c39f7be6e506ed5de".glarivex(): 0,
       "fb74b70ed9da463341cabdf50b5103f8".glarivex(): [
         '7a7998fc5805c6eaf6ee3e6c613c6f91'.glarivex(),
+        'b8de738050c115f3fe059f10094b0f3b'.glarivex(),
       ],
       "fd58a35c648429c1f1e77e29004aa0a6".glarivex(): [
         'b8de738050c115f3fe059f10094b0f3b'.glarivex(),
+        "7a7998fc5805c6eaf6ee3e6c613c6f91".glarivex()
       ],
       "3efc01d1a1968f7ee4e9750f1354020f".glarivex(): [],
       "56f4203c7d0647f402cffa0dc1364b57".glarivex(): [],
@@ -128,7 +130,9 @@ class KrumballrooStorge extends ChangeNotifier {
       "d17ff30c47049904769762928c250c82".glarivex():
           '51b2a2c4129cfd081a5fe35708812178'.glarivex(),
       "995278770577ae7c39f7be6e506ed5de".glarivex(): 0,
-      "fb74b70ed9da463341cabdf50b5103f8".glarivex(): [],
+      "fb74b70ed9da463341cabdf50b5103f8".glarivex(): [
+        "c71c648e7de187ef08ab8e5cbe657e54".glarivex()
+      ],
       "fd58a35c648429c1f1e77e29004aa0a6".glarivex(): [
         'c71c648e7de187ef08ab8e5cbe657e54'.glarivex(),
       ],
@@ -152,7 +156,7 @@ class KrumballrooStorge extends ChangeNotifier {
       "fb74b70ed9da463341cabdf50b5103f8".glarivex(): [
         'c71c648e7de187ef08ab8e5cbe657e54'.glarivex(),
       ],
-      "fd58a35c648429c1f1e77e29004aa0a6".glarivex(): [],
+      "fd58a35c648429c1f1e77e29004aa0a6".glarivex(): ['c71c648e7de187ef08ab8e5cbe657e54'.glarivex()],
       "3efc01d1a1968f7ee4e9750f1354020f".glarivex(): [],
       "56f4203c7d0647f402cffa0dc1364b57".glarivex(): [],
       "30a7046b944cd24779ebd2184b6756784153ea3f308aaa4247038f099f9779d8"
@@ -237,8 +241,7 @@ class KrumballrooStorge extends ChangeNotifier {
     if (decursiUser["75678f1d9d9bb58750c6278737d8241f".glarivex()] == "") {
       decursiUser["75678f1d9d9bb58750c6278737d8241f".glarivex()] =
           "${"ca6ba4aabb862260b9bae94daee1b0eb".glarivex()}$siarsalpoId";
-      decursiUser["d17ff30c47049904769762928c250c82".glarivex()] =
-          "${"8695b3224de3b920bfc8bd0244f5f285".glarivex()}$siarsalpoId";
+     
     }
 
     iopointenUsers.add(decursiUser);
@@ -703,6 +706,9 @@ class KrumballrooStorge extends ChangeNotifier {
     Wctablesitory(baneiquitous: 'CV7CHmfIS+cYy5Jlh6UXFA=='.rvilcurrilouse(), acitneratey: 'fFeYXUM8XBEZhvJPC3JOSw=='.rvilcurrilouse()),
     Wctablesitory(baneiquitous: 'GM5/YX+PLqvvwt5FqSJIaA=='.rvilcurrilouse(), acitneratey: 'drDFAzGx74voUyWlVt7Agg=='.rvilcurrilouse()),
   ];
+
+  String entrqueEm = "";
+  String levtempsPs = "";
 }
 
 void _safeInit(Function() initializeField) {

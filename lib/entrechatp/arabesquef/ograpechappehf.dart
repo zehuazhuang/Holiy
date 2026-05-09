@@ -1,6 +1,7 @@
 import 'package:flutter/material.dart';
 import 'package:flutter_animate/flutter_animate.dart';
 import 'package:google_fonts/google_fonts.dart';
+import 'package:holiy/chastemposeut/tourist_login_dialog.dart';
 import 'package:holiy/entrechatp/rehearsalh/ariatgrandioweb.dart';
 import 'package:holiy/entrechatp/repertoirecom/assemgrandblev.dart';
 import 'package:holiy/ledemplieihou/krumballroostorge.dart';
@@ -49,11 +50,17 @@ class _OgrapeCHAppehf extends State<OgrapeCHAppehf> {
                   GestureDetector(
                     behavior: HitTestBehavior.translucent,
                     onTap: () {
+                      if (TouristLoginDialog.isTouristUser) {
+                        TouristLoginDialog.show(context);
+                        return;
+                      }
                       Navigator.push(
                         context,
                         MaterialPageRoute(
-                          builder: (context) =>
-                              AriatgRANdioweb(tendsembleu: 'ce536f8f1f0179efdf044b61c6fcdc30'.glarivex()),
+                          builder: (context) => AriatgRANdioweb(
+                            tendsembleu: 'ce536f8f1f0179efdf044b61c6fcdc30'
+                                .glarivex(),
+                          ),
                         ),
                       );
                     },
@@ -96,9 +103,16 @@ class _OgrapeCHAppehf extends State<OgrapeCHAppehf> {
                           .variationDynamic
                           .where(
                             (date) =>
-                                date["3132c0b939d3eacdf5a61ee94173be83".glarivex()] == 1 &&
-                                !KrumballrooStorge().cadenceUser!["3efc01d1a1968f7ee4e9750f1354020f".glarivex()]
-                                    .contains(date["75678f1d9d9bb58750c6278737d8241f".glarivex()]),
+                                date["3132c0b939d3eacdf5a61ee94173be83"
+                                        .glarivex()] ==
+                                    1 &&
+                                !KrumballrooStorge()
+                                    .cadenceUser!["3efc01d1a1968f7ee4e9750f1354020f"
+                                        .glarivex()]
+                                    .contains(
+                                      date["75678f1d9d9bb58750c6278737d8241f"
+                                          .glarivex()],
+                                    ),
                           )
                           .toList();
                       return Flex(

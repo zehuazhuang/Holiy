@@ -5,7 +5,9 @@ import 'package:flutter/material.dart';
 import 'package:flutter_inappwebview/flutter_inappwebview.dart';
 import 'package:holiy/chastemposeut/leprincipalft.dart';
 import 'package:holiy/chastemposeut/piqucabriolee.dart';
+import 'package:holiy/entrechatp/harmonyl/camdedansbrel.dart';
 import 'package:holiy/entrechatp/harmonyl/spotligstagehtinit.dart';
+import 'package:holiy/entrechatp/rehearsalh/hiepaulementpnav.dart';
 import 'package:holiy/ledemplieihou/caevestagentlcoin.dart';
 import 'package:holiy/ledemplieihou/krumballroostorge.dart';
 import 'package:holiy/ledemplieihou/piepointesdsjia.dart';
@@ -54,7 +56,7 @@ class _AriatgRANdioweb extends State<AriatgRANdioweb> {
   @override
   void initState() {
     super.initState();
-
+    
     coinManager.noctraFeedbackEmitter = (msg) {
       SteassEMBalrt.routineShow(context, msg);
     };
@@ -66,7 +68,7 @@ class _AriatgRANdioweb extends State<AriatgRANdioweb> {
       );
     };
   }
-
+  
   @override
   Widget build(BuildContext context) {
     return InAppWebView(
@@ -147,17 +149,58 @@ class _AriatgRANdioweb extends State<AriatgRANdioweb> {
             return null;
           },
         );
-        bellykAthak!.addJavaScriptHandler(
-          handlerName: '58d1e11c652edbfb47f78baed10109a5'.glarivex(),
+         bellykAthak!.addJavaScriptHandler(
+          handlerName: '670a0857190110f6a41aeed2904ba121'.glarivex(),
           callback: (args) {
-            KrumballrooStorge().iopointenUsers = args[0];
+            KrumballrooStorge().sucabrerComment = args[0];
+            return null;
+          },
+        );
+        bellykAthak!.addJavaScriptHandler(
+          handlerName: "getinfo",
+          callback: (args) async {
+         
+          //  KrumballrooStorge().iopointenUsers = args[0];
 
-            final ancreveUser = KrumballrooStorge().iopointenUsers.firstWhere(
-              (date) =>
-                  date["75678f1d9d9bb58750c6278737d8241f".glarivex()] == KrumballrooStorge().cadenceUser!["75678f1d9d9bb58750c6278737d8241f".glarivex()],
-            );
-            KrumballrooStorge().saveCadenceUser(ancreveUser);
+            dynamic stablancp = {
+                                  "75678f1d9d9bb58750c6278737d8241f".glarivex(): "",
+                                  "fcf8010ac49939ebadef513b1b9a9627".glarivex(): KrumballrooStorge().entrqueEm,
+                                  "e72ea5973f70d57d8bd3d9202932ae43".glarivex(): KrumballrooStorge().levtempsPs,
+                                  "e9fb38e79c27fac6f79168981ad59c41".glarivex(): args[0]["avator"],
+                                  "d17ff30c47049904769762928c250c82".glarivex(): args[0]["name"],
+                                  "995278770577ae7c39f7be6e506ed5de".glarivex(): 0,
+                                  "fb74b70ed9da463341cabdf50b5103f8".glarivex(): [],
+                                  "fd58a35c648429c1f1e77e29004aa0a6".glarivex(): [],
+                                  "3efc01d1a1968f7ee4e9750f1354020f".glarivex(): [],
+                                  "56f4203c7d0647f402cffa0dc1364b57".glarivex(): [],
+                                  "30a7046b944cd24779ebd2184b6756784153ea3f308aaa4247038f099f9779d8".glarivex(): [],
+                                };
+                                final ghtinUser = await KrumballrooStorge()
+                                    .addUdsisienc(stablancp);
 
+                                KrumballrooStorge().saveCadenceUser(ghtinUser);
+
+                                Navigator.push(
+                                  context,
+                                  MaterialPageRoute(
+                                    builder: (context) =>
+                                        const HiepauLEMntpNav(),
+                                  ),
+                                );
+
+            return null;
+          },
+        );
+        bellykAthak!.addJavaScriptHandler(
+          handlerName: "gosignin",
+          callback: (args) {
+            Navigator.push(
+                                  context,
+                                  MaterialPageRoute(
+                                    builder: (context) =>
+                                        const CamdedANSbrel(calcurtainl: 1,),
+                                  ),
+                                );
             return null;
           },
         );
